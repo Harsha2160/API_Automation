@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.BestBuy.POST_BestBuy_Test">
+      <class name="com.qa.Twilio.GET_JSONARRAY_Twilio">
         <methods>
-          <include name="StatusCode_POST_BestBuy" invocation-numbers="0"/>
-          <include name="JSON_POST_BestBuy"/>
+          <include name="GET"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.qa.BestBuy.POST_BestBuy_Test -->
+      </class> <!-- com.qa.Twilio.GET_JSONARRAY_Twilio -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

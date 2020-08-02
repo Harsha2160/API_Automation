@@ -1,23 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [API Testing]">
-  <listeners>
-    <listener class-name="com.qa.API.ExtentReport.Testlisten"/>
-  </listeners>
-  <test thread-count="5" name="BestBuy API Test(failed)">
-    <groups>
-      <run>
-        <include name="BestBuy"/>
-      </run>
-    </groups>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.BestBuy.PUT_BestBuy_Test">
+      <class name="com.qa.Twilio.GET_JSONARRAY_Twilio">
         <methods>
+          <include name="GET"/>
           <include name="setup"/>
-          <include name="StatusCode_PUT_BestBuy"/>
-          <include name="JSON_PUT_BestBuy"/>
         </methods>
-      </class> <!-- com.qa.BestBuy.PUT_BestBuy_Test -->
+      </class> <!-- com.qa.Twilio.GET_JSONARRAY_Twilio -->
     </classes>
-  </test> <!-- BestBuy API Test(failed) -->
-</suite> <!-- Failed suite [API Testing] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

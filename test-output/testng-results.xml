@@ -2,7 +2,7 @@
 <testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="API Testing" duration-ms="7212" started-at="2020-08-02T07:02:36Z" finished-at="2020-08-02T07:02:43Z">
+  <suite name="API Testing" duration-ms="9138" started-at="2020-08-02T12:47:47Z" finished-at="2020-08-02T12:47:56Z">
     <groups>
       <group name="Reqres">
         <method signature="GET_Reqres_Test.StatusCode_GET_Reqres()[pri:0, instance:com.qa.Reqres.GET_Reqres_Test@48a242ce]" name="StatusCode_GET_Reqres" class="com.qa.Reqres.GET_Reqres_Test"/>
@@ -21,17 +21,17 @@
         <method signature="PUT_BestBuy_Test.JSON_PUT_BestBuy()[pri:0, instance:com.qa.BestBuy.PUT_BestBuy_Test@530612ba]" name="JSON_PUT_BestBuy" class="com.qa.BestBuy.PUT_BestBuy_Test"/>
       </group> <!-- BestBuy -->
     </groups>
-    <test name="Twilio API Test" duration-ms="4608" started-at="2020-08-02T07:02:36Z" finished-at="2020-08-02T07:02:40Z">
+    <test name="Twilio API Test" duration-ms="5188" started-at="2020-08-02T12:47:47Z" finished-at="2020-08-02T12:47:52Z">
       <class name="com.qa.Twilio.GET_Twilio_HeaderAuth_Test">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.Twilio.GET_Twilio_HeaderAuth_Test@35a50a4c]" name="setup" is-config="true" duration-ms="21" started-at="2020-08-02T07:02:36Z" finished-at="2020-08-02T07:02:36Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.Twilio.GET_Twilio_HeaderAuth_Test@35a50a4c]" name="setup" is-config="true" duration-ms="19" started-at="2020-08-02T12:47:47Z" finished-at="2020-08-02T12:47:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="StatusCode_GET_Twilio()[pri:0, instance:com.qa.Twilio.GET_Twilio_HeaderAuth_Test@35a50a4c]" name="StatusCode_GET_Twilio" duration-ms="3353" started-at="2020-08-02T07:02:36Z" finished-at="2020-08-02T07:02:39Z">
+        <test-method status="PASS" signature="StatusCode_GET_Twilio()[pri:0, instance:com.qa.Twilio.GET_Twilio_HeaderAuth_Test@35a50a4c]" name="StatusCode_GET_Twilio" duration-ms="3707" started-at="2020-08-02T12:47:47Z" finished-at="2020-08-02T12:47:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StatusCode_GET_Twilio -->
-        <test-method status="PASS" signature="JSON_GET_Twilio(java.lang.String)[pri:0, instance:com.qa.Twilio.GET_Twilio_HeaderAuth_Test@35a50a4c]" name="JSON_GET_Twilio" duration-ms="25" started-at="2020-08-02T07:02:40Z" data-provider="Twilio_GET_Data" depends-on-methods="com.qa.Twilio.GET_Twilio_HeaderAuth_Test.StatusCode_GET_Twilio" finished-at="2020-08-02T07:02:40Z">
+        <test-method status="PASS" signature="JSON_GET_Twilio(java.lang.String)[pri:0, instance:com.qa.Twilio.GET_Twilio_HeaderAuth_Test@35a50a4c]" name="JSON_GET_Twilio" duration-ms="28" started-at="2020-08-02T12:47:52Z" data-provider="Twilio_GET_Data" depends-on-methods="com.qa.Twilio.GET_Twilio_HeaderAuth_Test.StatusCode_GET_Twilio" finished-at="2020-08-02T12:47:52Z">
           <params>
             <param index="0">
               <value>
@@ -44,17 +44,17 @@
         </test-method> <!-- JSON_GET_Twilio -->
       </class> <!-- com.qa.Twilio.GET_Twilio_HeaderAuth_Test -->
     </test> <!-- Twilio API Test -->
-    <test name="Reqres API Test" duration-ms="779" started-at="2020-08-02T07:02:41Z" finished-at="2020-08-02T07:02:42Z">
+    <test name="Reqres API Test" duration-ms="812" started-at="2020-08-02T12:47:53Z" finished-at="2020-08-02T12:47:53Z">
       <class name="com.qa.Reqres.GET_Reqres_Test">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.Reqres.GET_Reqres_Test@48a242ce]" name="setup" is-config="true" duration-ms="1" started-at="2020-08-02T07:02:41Z" finished-at="2020-08-02T07:02:41Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.Reqres.GET_Reqres_Test@48a242ce]" name="setup" is-config="true" duration-ms="1" started-at="2020-08-02T12:47:53Z" finished-at="2020-08-02T12:47:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="StatusCode_GET_Reqres()[pri:0, instance:com.qa.Reqres.GET_Reqres_Test@48a242ce]" name="StatusCode_GET_Reqres" duration-ms="604" started-at="2020-08-02T07:02:41Z" finished-at="2020-08-02T07:02:41Z">
+        <test-method status="PASS" signature="StatusCode_GET_Reqres()[pri:0, instance:com.qa.Reqres.GET_Reqres_Test@48a242ce]" name="StatusCode_GET_Reqres" duration-ms="513" started-at="2020-08-02T12:47:53Z" finished-at="2020-08-02T12:47:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StatusCode_GET_Reqres -->
-        <test-method status="PASS" signature="JSON_GET_Reqres(java.lang.String)[pri:0, instance:com.qa.Reqres.GET_Reqres_Test@48a242ce]" name="JSON_GET_Reqres" duration-ms="4" started-at="2020-08-02T07:02:42Z" data-provider="Reqres_GET_DATA" depends-on-methods="com.qa.Reqres.GET_Reqres_Test.StatusCode_GET_Reqres" finished-at="2020-08-02T07:02:42Z">
+        <test-method status="PASS" signature="JSON_GET_Reqres(java.lang.String)[pri:0, instance:com.qa.Reqres.GET_Reqres_Test@48a242ce]" name="JSON_GET_Reqres" duration-ms="15" started-at="2020-08-02T12:47:53Z" data-provider="Reqres_GET_DATA" depends-on-methods="com.qa.Reqres.GET_Reqres_Test.StatusCode_GET_Reqres" finished-at="2020-08-02T12:47:53Z">
           <params>
             <param index="0">
               <value>
@@ -67,27 +67,27 @@
         </test-method> <!-- JSON_GET_Reqres -->
       </class> <!-- com.qa.Reqres.GET_Reqres_Test -->
     </test> <!-- Reqres API Test -->
-    <test name="BestBuy API Test" duration-ms="1236" started-at="2020-08-02T07:02:42Z" finished-at="2020-08-02T07:02:43Z">
+    <test name="BestBuy API Test" duration-ms="2315" started-at="2020-08-02T12:47:53Z" finished-at="2020-08-02T12:47:56Z">
       <class name="com.qa.BestBuy.DELETE_BestBuy_Test">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.BestBuy.DELETE_BestBuy_Test@2a40cd94]" name="setup" is-config="true" duration-ms="1" started-at="2020-08-02T07:02:43Z" finished-at="2020-08-02T07:02:43Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.BestBuy.DELETE_BestBuy_Test@2a40cd94]" name="setup" is-config="true" duration-ms="0" started-at="2020-08-02T12:47:56Z" finished-at="2020-08-02T12:47:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="StatusCode_DELETE_BestBuy()[pri:0, instance:com.qa.BestBuy.DELETE_BestBuy_Test@2a40cd94]" name="StatusCode_DELETE_BestBuy" duration-ms="139" started-at="2020-08-02T07:02:43Z" finished-at="2020-08-02T07:02:43Z">
+        <test-method status="PASS" signature="StatusCode_DELETE_BestBuy()[pri:0, instance:com.qa.BestBuy.DELETE_BestBuy_Test@2a40cd94]" name="StatusCode_DELETE_BestBuy" duration-ms="188" started-at="2020-08-02T12:47:56Z" finished-at="2020-08-02T12:47:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StatusCode_DELETE_BestBuy -->
-        <test-method status="PASS" signature="JSON_DELETE_BestBuy()[pri:0, instance:com.qa.BestBuy.DELETE_BestBuy_Test@2a40cd94]" name="JSON_DELETE_BestBuy" duration-ms="2" started-at="2020-08-02T07:02:43Z" depends-on-methods="com.qa.BestBuy.DELETE_BestBuy_Test.StatusCode_DELETE_BestBuy" finished-at="2020-08-02T07:02:43Z">
+        <test-method status="PASS" signature="JSON_DELETE_BestBuy()[pri:0, instance:com.qa.BestBuy.DELETE_BestBuy_Test@2a40cd94]" name="JSON_DELETE_BestBuy" duration-ms="4" started-at="2020-08-02T12:47:56Z" depends-on-methods="com.qa.BestBuy.DELETE_BestBuy_Test.StatusCode_DELETE_BestBuy" finished-at="2020-08-02T12:47:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- JSON_DELETE_BestBuy -->
       </class> <!-- com.qa.BestBuy.DELETE_BestBuy_Test -->
       <class name="com.qa.BestBuy.POST_BestBuy_Test">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.BestBuy.POST_BestBuy_Test@2df32bf7]" name="setup" is-config="true" duration-ms="0" started-at="2020-08-02T07:02:42Z" finished-at="2020-08-02T07:02:42Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.BestBuy.POST_BestBuy_Test@2df32bf7]" name="setup" is-config="true" duration-ms="0" started-at="2020-08-02T12:47:53Z" finished-at="2020-08-02T12:47:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="StatusCode_POST_BestBuy(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, long, long, java.lang.String, java.lang.String)[pri:0, instance:com.qa.BestBuy.POST_BestBuy_Test@2df32bf7]" name="StatusCode_POST_BestBuy" duration-ms="837" started-at="2020-08-02T07:02:42Z" data-provider="POST_Data" finished-at="2020-08-02T07:02:43Z">
+        <test-method status="PASS" signature="StatusCode_POST_BestBuy(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, long, long, java.lang.String, java.lang.String)[pri:0, instance:com.qa.BestBuy.POST_BestBuy_Test@2df32bf7]" name="StatusCode_POST_BestBuy" duration-ms="1379" started-at="2020-08-02T12:47:54Z" data-provider="POST_Data" finished-at="2020-08-02T12:47:55Z">
           <params>
             <param index="0">
               <value>
@@ -153,17 +153,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StatusCode_POST_BestBuy -->
-        <test-method status="PASS" signature="JSON_POST_BestBuy()[pri:0, instance:com.qa.BestBuy.POST_BestBuy_Test@2df32bf7]" name="JSON_POST_BestBuy" duration-ms="5" started-at="2020-08-02T07:02:43Z" depends-on-methods="com.qa.BestBuy.POST_BestBuy_Test.StatusCode_POST_BestBuy" finished-at="2020-08-02T07:02:43Z">
+        <test-method status="PASS" signature="JSON_POST_BestBuy()[pri:0, instance:com.qa.BestBuy.POST_BestBuy_Test@2df32bf7]" name="JSON_POST_BestBuy" duration-ms="4" started-at="2020-08-02T12:47:55Z" depends-on-methods="com.qa.BestBuy.POST_BestBuy_Test.StatusCode_POST_BestBuy" finished-at="2020-08-02T12:47:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- JSON_POST_BestBuy -->
       </class> <!-- com.qa.BestBuy.POST_BestBuy_Test -->
       <class name="com.qa.BestBuy.PUT_BestBuy_Test">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.BestBuy.PUT_BestBuy_Test@530612ba]" name="setup" is-config="true" duration-ms="1" started-at="2020-08-02T07:02:43Z" finished-at="2020-08-02T07:02:43Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.BestBuy.PUT_BestBuy_Test@530612ba]" name="setup" is-config="true" duration-ms="0" started-at="2020-08-02T12:47:55Z" finished-at="2020-08-02T12:47:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="StatusCode_PUT_BestBuy(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, long, long, java.lang.String, java.lang.String)[pri:0, instance:com.qa.BestBuy.PUT_BestBuy_Test@530612ba]" name="StatusCode_PUT_BestBuy" duration-ms="104" started-at="2020-08-02T07:02:43Z" data-provider="PUT_Data" finished-at="2020-08-02T07:02:43Z">
+        <test-method status="PASS" signature="StatusCode_PUT_BestBuy(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, long, long, java.lang.String, java.lang.String)[pri:0, instance:com.qa.BestBuy.PUT_BestBuy_Test@530612ba]" name="StatusCode_PUT_BestBuy" duration-ms="533" started-at="2020-08-02T12:47:55Z" data-provider="PUT_Data" finished-at="2020-08-02T12:47:56Z">
           <params>
             <param index="0">
               <value>
@@ -229,7 +229,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StatusCode_PUT_BestBuy -->
-        <test-method status="PASS" signature="JSON_PUT_BestBuy()[pri:0, instance:com.qa.BestBuy.PUT_BestBuy_Test@530612ba]" name="JSON_PUT_BestBuy" duration-ms="2" started-at="2020-08-02T07:02:43Z" depends-on-methods="com.qa.BestBuy.PUT_BestBuy_Test.StatusCode_PUT_BestBuy" finished-at="2020-08-02T07:02:43Z">
+        <test-method status="PASS" signature="JSON_PUT_BestBuy()[pri:0, instance:com.qa.BestBuy.PUT_BestBuy_Test@530612ba]" name="JSON_PUT_BestBuy" duration-ms="4" started-at="2020-08-02T12:47:56Z" depends-on-methods="com.qa.BestBuy.PUT_BestBuy_Test.StatusCode_PUT_BestBuy" finished-at="2020-08-02T12:47:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- JSON_PUT_BestBuy -->
