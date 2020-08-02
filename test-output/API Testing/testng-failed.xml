@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [API Testing]">
+  <listeners>
+    <listener class-name="com.qa.API.ExtentReport.Testlisten"/>
+  </listeners>
+  <test thread-count="5" name="BestBuy API Test(failed)">
+    <groups>
+      <run>
+        <include name="BestBuy"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.qa.BestBuy.PUT_BestBuy_Test">
+        <methods>
+          <include name="setup"/>
+          <include name="StatusCode_PUT_BestBuy"/>
+          <include name="JSON_PUT_BestBuy"/>
+        </methods>
+      </class> <!-- com.qa.BestBuy.PUT_BestBuy_Test -->
+    </classes>
+  </test> <!-- BestBuy API Test(failed) -->
+</suite> <!-- Failed suite [API Testing] -->

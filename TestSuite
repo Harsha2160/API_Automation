@@ -1,0 +1,38 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="API Testing" allow-return-values="true">
+<listeners>  
+<listener class-name="com.qa.API.ExtentReport.Testlisten"/>
+</listeners>
+<test name="Twilio API Test">
+<groups>  
+<run>  
+<include name="Twilio"/>  
+</run>  
+</groups>  
+<classes>
+<class name="com.qa.Twilio.GET_Twilio_HeaderAuth_Test"/>
+</classes>
+</test>
+<test name="Reqres API Test">
+<groups>  
+<run>  
+<include name="Reqres"/>  
+</run>  
+</groups>  
+<classes>
+<class name="com.qa.Reqres.GET_Reqres_Test"/>
+</classes>
+</test>
+<test name="BestBuy API Test">
+<groups>  
+<run>  
+<include name="BestBuy"/>  
+</run>  
+</groups>  
+ <classes>
+ <class name="com.qa.BestBuy.POST_BestBuy_Test"/>
+ <class name="com.qa.BestBuy.PUT_BestBuy_Test"/>
+ <class name="com.qa.BestBuy.DELETE_BestBuy_Test"/>
+ </classes>
+  </test>
+  </suite>
