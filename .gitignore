@@ -1,3 +1,5 @@
 test-output/
 application.log
 target/
+.classpath
+.project
