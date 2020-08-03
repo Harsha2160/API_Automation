@@ -1,6 +1,7 @@
 # API_Automation
-1. Automate CRUD Operations of various APIs using HTTPClient on Eclipse.
-2. Automate OTP Functionality using Twilio API.
+1. Automated CRUD Operations of various APIs using HTTPClient.
+2. Automated API Testing using TestNG.
+2. Automated OTP Functionality using Twilio API.
 3. Jackson API leveraged to Post a Request.
 4. Extent Reporting Framework used to generate the Test Report.
 5. DataDriven Framework was used to create JSON Payload. Data was fetched from Excel Sheet. 
