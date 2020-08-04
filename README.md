@@ -11,4 +11,3 @@ The following APIs have been employed:
 1. Twilio
 2. Reqres
 3. BestBuy(hosted locally)
-
