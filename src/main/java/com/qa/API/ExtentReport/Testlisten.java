@@ -9,7 +9,7 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
-import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
 
@@ -19,7 +19,7 @@ public class Testlisten implements ITestListener {
 
 	public static ExtentTest logger;
 	public static ExtentReports extent;
-	public static ExtentHtmlReporter htmlReporter;
+	public static ExtentSparkReporter htmlReporter;
 	public static String packagename;
 	ReportCategory_Conditionalities RCC;
 
@@ -49,13 +49,13 @@ public class Testlisten implements ITestListener {
 
 	public void onStart(ITestContext context) {
 		if (htmlReporter == null) {
-			htmlReporter = new ExtentHtmlReporter(
+			htmlReporter = new ExtentSparkReporter(
 					System.getProperty("user.dir") + "./test-output/STMExtentReport.html");
             extent = new ExtentReports();
 			extent.attachReporter(htmlReporter);
 			extent.setSystemInfo("Host Name", "eSeal");
 			extent.setSystemInfo("Environment", "Test");
-			extent.setSystemInfo("Automation Test Engineer", "Harsha");
+			extent.setSystemInfo("Test Automation Engineer", "Harsha");
 			htmlReporter.config().setDocumentTitle("Regression Test Report");
 
 			htmlReporter.config().setReportName("Regression Test Report");
