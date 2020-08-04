@@ -19,7 +19,7 @@ public class Testlisten implements ITestListener {
 
 	public static ExtentTest logger;
 	public static ExtentReports extent;
-	public static ExtentSparkReporter htmlReporter;
+	public static ExtentSparkReporter SparkReporter;
 	public static String packagename;
 	ReportCategory_Conditionalities RCC;
 
@@ -48,19 +48,19 @@ public class Testlisten implements ITestListener {
 	}
 
 	public void onStart(ITestContext context) {
-		if (htmlReporter == null) {
-			htmlReporter = new ExtentSparkReporter(
+		if (SparkReporter == null) {
+			SparkReporter = new ExtentSparkReporter(
 					System.getProperty("user.dir") + "./test-output/STMExtentReport.html");
             extent = new ExtentReports();
-			extent.attachReporter(htmlReporter);
+			extent.attachReporter(SparkReporter);
 			extent.setSystemInfo("Host Name", "eSeal");
 			extent.setSystemInfo("Environment", "Test");
 			extent.setSystemInfo("Test Automation Engineer", "Harsha");
-			htmlReporter.config().setDocumentTitle("Regression Test Report");
+			SparkReporter.config().setDocumentTitle("Regression Test Report");
 
-			htmlReporter.config().setReportName("Regression Test Report");
+			SparkReporter.config().setReportName("Regression Test Report");
 
-			htmlReporter.config().setTheme(Theme.STANDARD);
+			SparkReporter.config().setTheme(Theme.STANDARD);
 		}
 	}
 
