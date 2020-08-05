@@ -53,7 +53,7 @@ public class Testlisten implements ITestListener {
 					System.getProperty("user.dir") + "./test-output/STMExtentReport.html");
             extent = new ExtentReports();
 			extent.attachReporter(SparkReporter);
-			extent.setSystemInfo("Host Name", "eSeal");
+			extent.setSystemInfo("Host Name", "5CD9229M66");
 			extent.setSystemInfo("Environment", "Test");
 			extent.setSystemInfo("Test Automation Engineer", "Harsha");
 			SparkReporter.config().setDocumentTitle("Regression Test Report");

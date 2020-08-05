@@ -4,7 +4,7 @@
 2. Automated OTP Functionality using Twilio API.
 3. Jackson API leveraged to Post a Request.
 4. Extent Reporting Framework used to generate the Test Report.
-5. DataDriven Framework was used to create JSON Payload. Data was fetched from Excel Sheet. 
+5. DataDriven Framework with DataProvider used to create JSON Payload. Data was fetched from Excel Sheet. 
 
 
 The following APIs have been employed:
