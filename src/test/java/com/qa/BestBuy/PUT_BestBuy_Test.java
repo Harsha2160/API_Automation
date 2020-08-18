@@ -47,7 +47,7 @@ public class PUT_BestBuy_Test extends BaseClass {
 	
 	@DataProvider
 	public Object[][] PUT_Data() throws IOException {
-		return ObjectArray_Input.PUT_DATA();                    //Returning Method inside a Method
+		return ObjectArray_Input.Fetch_Data();                    //Returning Method inside a Method
 	}
 	
 	@Test(dataProvider="PUT_Data",groups="BestBuy")

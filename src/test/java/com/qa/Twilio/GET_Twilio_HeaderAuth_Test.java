@@ -54,7 +54,7 @@ public class GET_Twilio_HeaderAuth_Test extends BaseClass {
 	}
 	@DataProvider
 	public Object[][] Twilio_GET_Data() throws IOException {
-		return ObjectArray_Input.Twilio_GET_DATA();                    //Returning Method inside a Method
+		return ObjectArray_Input.Fetch_Data();                    //Returning Method inside a Method
 	}
 	
 	@Test(dataProvider="Twilio_GET_Data",dependsOnMethods="StatusCode_GET_Twilio", groups="Twilio")

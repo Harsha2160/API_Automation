@@ -48,7 +48,7 @@ import com.qa.API.client.RestClient_Reqres;
 		
 		@DataProvider
 		public Object[][] Reqres_GET_DATA() throws IOException {
-			return ObjectArray_Input.Reqres_GET_DATA();                    //Returning Method inside a Method
+			return ObjectArray_Input.Fetch_Data();                    //Returning Method inside a Method
 		}
 		
 		

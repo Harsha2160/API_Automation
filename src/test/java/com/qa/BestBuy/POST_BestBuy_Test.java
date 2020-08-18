@@ -48,7 +48,7 @@ public class POST_BestBuy_Test extends BaseClass {
 	
 	@DataProvider
 	public Object[][] POST_Data() throws IOException {
-		return ObjectArray_Input.POST_DATA();                    //Returning Method inside a Method
+		return ObjectArray_Input.Fetch_Data();                    //Returning Method inside a Method
 	}
 	
 	
