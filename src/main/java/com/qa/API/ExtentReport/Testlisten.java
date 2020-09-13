@@ -10,14 +10,14 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
-import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
 public class Testlisten implements ITestListener {
 
 	public static ExtentTest logger;
 	private static ExtentReports extent;
-	private static ExtentSparkReporter SparkReporter;
+	private static ExtentHtmlReporter HtmlReporter;
 	public static String packagename;
 	ReportCategory_Conditionalities RCC;
 	public static int Sheetnum = 1;
@@ -51,19 +51,19 @@ public class Testlisten implements ITestListener {
 	}
 
 	public void onStart(ITestContext context) {
-		if (SparkReporter == null) {
-			SparkReporter = new ExtentSparkReporter(
+		if (HtmlReporter == null) {
+			HtmlReporter = new ExtentHtmlReporter(
 					System.getProperty("user.dir") + "./test-output/STMExtentReport.html");
 			extent = new ExtentReports();
-			extent.attachReporter(SparkReporter);
+			extent.attachReporter(HtmlReporter);
 			extent.setSystemInfo("Host Name", "5CD9229M66");
 			extent.setSystemInfo("Environment", "Test");
 			extent.setSystemInfo("Test Automation Engineer", "Harsha");
-			SparkReporter.config().setDocumentTitle("Regression Test Report");
+			HtmlReporter.config().setDocumentTitle("Regression Test Report");
 
-			SparkReporter.config().setReportName("Regression Test Report");
+			HtmlReporter.config().setReportName("Regression Test Report");
 
-			SparkReporter.config().setTheme(Theme.STANDARD);
+			HtmlReporter.config().setTheme(Theme.STANDARD);
 		}
 	}
 
