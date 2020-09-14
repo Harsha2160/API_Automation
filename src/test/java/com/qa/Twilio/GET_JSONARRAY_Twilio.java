@@ -35,7 +35,7 @@ public class GET_JSONARRAY_Twilio extends BaseClass {
 
 		// JSON Response
 		String ResponseString = EntityUtils.toString(response.getEntity(), "UTF-8");
-
+		
 		JSONObject jsonresponse = new JSONObject(ResponseString);
 		// JSONARRAY follows the same Order shown in Response.
 		System.out.println(jsonresponse);
